@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400&family=Fauna+One&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  margin: auto;
+}
+
+@media ( min-width: 769px ) and ( max-width: 1023px ) {
+  .react_player {
+    border: "solid 5px green";
+    max-width: 50%;
+     max-height: 250px; 
+     margin-right: 20px;
+     
+  }
+}
+
+/* .player-wrapper {
+  width: auto; 
+  height: 100%; 
+}
+.react-player {
+  padding-top: 56.25%; 
+  position: relative;
+} */
+
+.react-player > div {
+  /* position: absolute; */
+}
+
+.player-wrapper {
+  width: auto; 
+  height: 100%; 
+  position: relative;
+  padding-top: 100%; /* 720 / 1280 = 0.5625 */
+}
+
+.react-player {
+  /* position: absolute; */
+  top: 50;
+  left: 0;
+}
